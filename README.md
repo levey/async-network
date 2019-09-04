@@ -164,9 +164,15 @@ The compiled AsyncNetwork Framework can be directly imported into your project:
 
 ### CocoaPods
 
-Add this to your podfile:
+Add this to your Podfile:
 
     pod 'AsyncNetwork'
+
+### Carthage
+
+Add this to your Cartfile:
+
+    github "levey/async-network" ~> 1.1
 
 
 ## License (MIT)
