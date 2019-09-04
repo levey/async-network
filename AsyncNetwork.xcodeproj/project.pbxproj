@@ -50,6 +50,7 @@
 		5C568BFA1C2CE598002632CE /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C568BF11C2CE598002632CE /* GCDAsyncUdpSocket.m */; };
 		5C568BFB1C2CE598002632CE /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 5C568BF21C2CE598002632CE /* README.markdown */; };
 		5C568BFC1C2CE598002632CE /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 5C568BF21C2CE598002632CE /* README.markdown */; };
+		5C8C89C623200B4A00BE4A99 /* Framework-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C8C89C523200B4A00BE4A99 /* Framework-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		5C568BF01C2CE598002632CE /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		5C568BF11C2CE598002632CE /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		5C568BF21C2CE598002632CE /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		5C8C89C523200B4A00BE4A99 /* Framework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = "<group>"; };
 		FC698FC71632B3AC006418D6 /* NSNetService+AsyncRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNetService+AsyncRequest.h"; sourceTree = "<group>"; };
 		FC698FC81632B3AC006418D6 /* NSNetService+AsyncRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNetService+AsyncRequest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				2D1D67681518088E0039CE94 /* README.md */,
+				5C8C89C523200B4A00BE4A99 /* Framework-Info.plist */,
 				5C568BED1C2CE597002632CE /* CocoaAsyncSocket */,
 				2D2467CF151800AB00101EAB /* AsyncNetwork */,
 				2DA5F1431AB5FAF300A8A65F /* AsyncNetworkTests */,
@@ -328,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8C89C623200B4A00BE4A99 /* Framework-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
