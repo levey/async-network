@@ -112,26 +112,25 @@
 }
 
 // send command and object with response block
-- (void)sendCommand:(AsyncCommand)command object:(id<NSCoding>)object responseBlock:(AsyncNetworkResponseBlock)block;
+- (void)sendCommand:(AsyncCommand)command object:(NSData *)object responseBlock:(AsyncNetworkResponseBlock)block;
 {
-	for (AsyncConnection *connection in self.connections) {
-		if (![connection connected]) continue;
-		[connection sendCommand:command object:object responseBlock:block];
-	}
+    for (AsyncConnection *connection in self.connections) {
+        if (![connection connected]) continue;
+        [connection sendCommand:command object:object responseBlock:block];
+    }
 }
 
 // send command and object without response block
-- (void)sendCommand:(AsyncCommand)command object:(id<NSCoding>)object;
+- (void)sendCommand:(AsyncCommand)command object:(NSData *)object;
 {
-	[self sendCommand:command object:object responseBlock:nil];
+    [self sendCommand:command object:object responseBlock:nil];
 }
 
 // send object with command or response block
-- (void)sendObject:(id<NSCoding>)object;
+- (void)sendObject:(NSData *)object;
 {
-	[self sendCommand:0 object:object responseBlock:nil];
+    [self sendCommand:0 object:object responseBlock:nil];
 }
-
 
 #pragma mark - Custom Accessors
 
