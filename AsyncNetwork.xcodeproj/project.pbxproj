@@ -73,7 +73,7 @@
 		2D2467F51518015D00101EAB /* AsyncServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncServer.h; sourceTree = "<group>"; };
 		2D2467F61518015D00101EAB /* AsyncServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncServer.m; sourceTree = "<group>"; };
 		2DA0082C1520E36A001B2551 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		2DA5F1171AB5FABE00A8A65F /* AsyncNetwork iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "AsyncNetwork iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA5F1171AB5FABE00A8A65F /* AsyncNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA5F1351AB5FAF300A8A65F /* AsyncNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA5F1451AB5FAF300A8A65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA5F1461AB5FAF300A8A65F /* AsyncNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncNetworkTests.m; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		2D2467C7151800AB00101EAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DA5F1171AB5FABE00A8A65F /* AsyncNetwork iOS.framework */,
+				2DA5F1171AB5FABE00A8A65F /* AsyncNetwork.framework */,
 				2DA5F1351AB5FAF300A8A65F /* AsyncNetwork.framework */,
 			);
 			name = Products;
@@ -262,7 +262,7 @@
 			);
 			name = "AsyncNetwork iOS";
 			productName = AsyncNetworkIOS;
-			productReference = 2DA5F1171AB5FABE00A8A65F /* AsyncNetwork iOS.framework */;
+			productReference = 2DA5F1171AB5FABE00A8A65F /* AsyncNetwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2DA5F1341AB5FAF300A8A65F /* AsyncNetwork */ = {
@@ -449,7 +449,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,7 +493,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
