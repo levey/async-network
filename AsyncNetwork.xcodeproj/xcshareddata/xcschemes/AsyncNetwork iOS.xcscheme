@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2DA5F1161AB5FABE00A8A65F"
-               BuildableName = "AsyncNetworkIOS.framework"
-               BlueprintName = "AsyncNetworkIOS"
+               BuildableName = "AsyncNetwork iOS.framework"
+               BlueprintName = "AsyncNetwork iOS"
                ReferencedContainer = "container:AsyncNetwork.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2DA5F1161AB5FABE00A8A65F"
-            BuildableName = "AsyncNetworkIOS.framework"
-            BlueprintName = "AsyncNetworkIOS"
+            BuildableName = "AsyncNetwork iOS.framework"
+            BlueprintName = "AsyncNetwork iOS"
             ReferencedContainer = "container:AsyncNetwork.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2DA5F1161AB5FABE00A8A65F"
-            BuildableName = "AsyncNetworkIOS.framework"
-            BlueprintName = "AsyncNetworkIOS"
+            BuildableName = "AsyncNetwork iOS.framework"
+            BlueprintName = "AsyncNetwork iOS"
             ReferencedContainer = "container:AsyncNetwork.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

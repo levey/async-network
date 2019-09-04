@@ -72,7 +72,7 @@
 		2D2467F51518015D00101EAB /* AsyncServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncServer.h; sourceTree = "<group>"; };
 		2D2467F61518015D00101EAB /* AsyncServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncServer.m; sourceTree = "<group>"; };
 		2DA0082C1520E36A001B2551 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		2DA5F1171AB5FABE00A8A65F /* AsyncNetworkIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncNetworkIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA5F1171AB5FABE00A8A65F /* AsyncNetwork iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "AsyncNetwork iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA5F1351AB5FAF300A8A65F /* AsyncNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA5F1451AB5FAF300A8A65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA5F1461AB5FAF300A8A65F /* AsyncNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncNetworkTests.m; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 		2D2467C7151800AB00101EAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DA5F1171AB5FABE00A8A65F /* AsyncNetworkIOS.framework */,
+				2DA5F1171AB5FABE00A8A65F /* AsyncNetwork iOS.framework */,
 				2DA5F1351AB5FAF300A8A65F /* AsyncNetwork.framework */,
 			);
 			name = Products;
@@ -244,9 +244,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2DA5F1161AB5FABE00A8A65F /* AsyncNetworkIOS */ = {
+		2DA5F1161AB5FABE00A8A65F /* AsyncNetwork iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DA5F12A1AB5FABE00A8A65F /* Build configuration list for PBXNativeTarget "AsyncNetworkIOS" */;
+			buildConfigurationList = 2DA5F12A1AB5FABE00A8A65F /* Build configuration list for PBXNativeTarget "AsyncNetwork iOS" */;
 			buildPhases = (
 				2DA5F1121AB5FABE00A8A65F /* Sources */,
 				2DA5F1131AB5FABE00A8A65F /* Frameworks */,
@@ -257,9 +257,9 @@
 			);
 			dependencies = (
 			);
-			name = AsyncNetworkIOS;
+			name = "AsyncNetwork iOS";
 			productName = AsyncNetworkIOS;
-			productReference = 2DA5F1171AB5FABE00A8A65F /* AsyncNetworkIOS.framework */;
+			productReference = 2DA5F1171AB5FABE00A8A65F /* AsyncNetwork iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2DA5F1341AB5FAF300A8A65F /* AsyncNetwork */ = {
@@ -311,7 +311,7 @@
 			projectRoot = "";
 			targets = (
 				2DA5F1341AB5FAF300A8A65F /* AsyncNetwork */,
-				2DA5F1161AB5FABE00A8A65F /* AsyncNetworkIOS */,
+				2DA5F1161AB5FABE00A8A65F /* AsyncNetwork iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DA5F12A1AB5FABE00A8A65F /* Build configuration list for PBXNativeTarget "AsyncNetworkIOS" */ = {
+		2DA5F12A1AB5FABE00A8A65F /* Build configuration list for PBXNativeTarget "AsyncNetwork iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DA5F12B1AB5FABE00A8A65F /* Release */,
