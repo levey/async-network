@@ -118,6 +118,16 @@
 	[self.connections addObject:connection];
 }
 
+- (void)connectToHost:(NSString *)theHost port:(NSUInteger)thePort
+{
+    // create and configure a connection
+    // the connection takes care of resovling the net service
+    AsyncConnection *connection = [AsyncConnection connectionWithHost:theHost port:thePort];
+    connection.delegate = self;
+    [connection start];
+    [self.connections addObject:connection];
+}
+
 // send object to all servers
 - (void)sendCommand:(AsyncCommand)command object:(id<NSCoding>)object responseBlock:(AsyncNetworkResponseBlock)block;
 {

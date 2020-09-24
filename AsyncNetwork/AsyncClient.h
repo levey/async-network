@@ -60,6 +60,7 @@
 - (void)stop;
 
 - (void)connectToService:(NSNetService *)service;
+- (void)connectToHost:(NSString *)theHost port:(NSUInteger)thePort;
 
 - (void)sendCommand:(AsyncCommand)command object:(id<NSCoding>)object responseBlock:(AsyncNetworkResponseBlock)block;
 - (void)sendCommand:(AsyncCommand)command object:(id<NSCoding>)object;
